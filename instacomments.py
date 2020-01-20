@@ -22,11 +22,9 @@ class InstaComments:
     def __init__(self, uri, max_com=40, timeout=10):
         self.uri = uri
         self.max_com = max_com
-        self.counter = 0
         self.time_out = timeout
         self.req = requests.get
         self.nova_pagina = None
-        # self.dict_response = {}
         self.list_response = []
 
     def _rqst(self, url):
