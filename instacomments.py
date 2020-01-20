@@ -1,5 +1,7 @@
-import requests
+# -*- coding: utf-8 -*-
 import re
+import requests
+
 
 """
     InstaComments 1.0
