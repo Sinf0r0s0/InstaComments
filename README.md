@@ -23,7 +23,9 @@ ___
     
     **InstaComments.start(query_hash="f0986789a5c5d17c2400faebf16efd0d")**
     * **query_hash** = previously recovered (**optional**)
-    * Returns the list of comments
+    * Returns the list of comments, eg:
+      
+         [{'glenn.liddel': 'Shocking'}, {'youngpablo522': 'nice job'}, ...}]
     
     
     
