@@ -13,8 +13,6 @@ import requests
 """
 
 class InstaComments:
-    insta_url = 'https://www.instagram.com/p/B7fOK33Ae08/'
-
     tag_to_re_a_i = 'ProfilePageContainer.js/'
     tag_to_re_a_f = '.js","226'
 
