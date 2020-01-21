@@ -109,5 +109,5 @@ if __name__ == '__main__':
     #  or even (better):
 
     # post = 'B7XA4vblU4o'
-    # inst = InstaComments(uri=post,max_com=42, timeout=5).start("f0986789a5c5d17c2400faebf16efd0d")
-    # print(inst)
+    # inst = InstaComments(uri=post,max_com=42, timeout=5)
+    # print(inst.start("f0986789a5c5d17c2400faebf16efd0d"))
