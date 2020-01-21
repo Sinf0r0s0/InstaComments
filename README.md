@@ -7,6 +7,10 @@ ___
 * Requeriments:
 
     **Requests**
+    
+* Installation:
+      
+      pip install git+git://github.com/Sinf0r0s0/InstaComments
 
 * usage:
 
