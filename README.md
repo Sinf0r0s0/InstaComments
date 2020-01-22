@@ -10,7 +10,7 @@ ___
     
 * Installation:
       
-      pip install git+git://github.com/Sinf0r0s0/InstaComments
+      pip install git+git://github.com/Sinf0r0s0/InstaComments.git
 
 * usage:
 
