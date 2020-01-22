@@ -1,6 +1,6 @@
 # InstaComments
 
-This small Python 3.8 API returns a list with (username / comment) of an Instagram post.
+Returns a list with username/comment of a post on instagram.
 
 ___
 
