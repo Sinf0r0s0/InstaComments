@@ -70,8 +70,6 @@ class Instacomments:
                     break
 
     def start(self, query_hash=None):
-        # q_hash = self.get_query_hash()
-        q_hash = 'f0986789a5c5d17c2400faebf16efd0d'
         if query_hash:
             q_hash = query_hash
         else:
