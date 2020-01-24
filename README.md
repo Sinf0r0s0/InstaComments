@@ -54,5 +54,5 @@ ___
     or even (better):
 
         post = 'B7XA4vblU4o'
-        inst = Instacomments(post, 60)
+        inst = Instacomments(post, 5000)
         print(inst.start("f0986789a5c5d17c2400faebf16efd0d"))
