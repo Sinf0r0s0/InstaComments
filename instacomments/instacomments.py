@@ -74,7 +74,7 @@ class Instacomments:
             q_hash = query_hash
         else:
             q_hash = self.get_query_hash()
-            print(f'\nUse this query hash as parameter in "start()" function to several speed improvement!: "{q_hash}"')
+            print(f'\nUse this query hash as argument in "start()" function to several speed improvement!: "{q_hash}"')
 
         if q_hash:
             if self.max_com > 0 <= 40:
