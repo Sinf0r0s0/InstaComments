@@ -40,13 +40,13 @@ ___
     just this:
 
         post = 'B7XA4vblU4o'
-        inst = InstaComments(post, 60)
+        inst = Instacomments(post, 60)
         print(inst.start())
 
     or:
 
         post = 'B7XA4vblU4o'print()
-        inst = InstaComments(post, 60)
+        inst = Instacomments(post, 60)
         #  save the query_hash in some text file because it is permanent
         qh = inst.get_query_hash()
         print(inst.start(qh))
@@ -54,5 +54,5 @@ ___
     or even (better):
 
         post = 'B7XA4vblU4o'
-        inst = InstaComments(post, 60)
+        inst = Instacomments(post, 60)
         print(inst.start("f0986789a5c5d17c2400faebf16efd0d"))
