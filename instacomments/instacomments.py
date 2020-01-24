@@ -43,10 +43,8 @@ class Instacomments:
         r = self._rqst(f'https://www.instagram.com/p/{self.uri}/')
         if r:
             ppc = self._re_search(self._tag_to_re_a_i, self._tag_to_re_a_f, r.text)
-            # print(ppc)
             rp = self._rqst(f'https://www.instagram.com/static/bundles/metro/ProfilePageContainer.js/{ppc}.js')
             if rp:
-                # print(rp.text)
                 return self._re_search(self._tag_to_re_b_i, self._tag_to_re_b_f, rp.text)
 
             else:
