@@ -9,7 +9,6 @@ import requests
 """
 
 class Instacomments:
-
     _tag_to_re_a_i = 'ProfilePageContainer.js/'
     _tag_to_re_a_f = '.js","226'
     _tag_to_re_b_i = 'queryId:"'
