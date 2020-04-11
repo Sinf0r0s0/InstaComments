@@ -33,7 +33,6 @@ class Instacomments:
         return re.search(f'{tag_ini}(.*){tag_fin}', ent).group(1)
     #  recover query_hash, tanks: https://www.diggernaut.com/blog/
     def get_query_hash(self):
-
         r = self._rqst(f'https://www.instagram.com/p/{self.uri}/')
         if r:
             ppc = self._re_search(self._tag_to_re_a_i, self._tag_to_re_a_f, r.text)
